@@ -1,0 +1,192 @@
+:root{
+    --youtube-color:#e21a20;
+    --youtube-border:#b2161c;
+    --blog-color:#f2780c;
+    --blog-border:#c3610b;
+    --github-color:#000;
+    --gmail-color:#92abb6;
+    --gmail-border:#4d636a;
+    --linkedin-color:#0077b5;
+    --linkedin-border:#005a8b;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Tilt Neon", sans-serif;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    animation: bg-scrolling-reverse 0.92s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 520px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.me{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.me img{
+    border-radius: 50%;
+    width: 128px;
+    border: 2px solid black;
+}
+
+.title-container{
+    background-color: rgba(102, 102, 102, 0.29);
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.me-title{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.me-subtitle{
+    margin: 0;
+    font-size: 1.25rem;
+    color: #545454;
+}
+
+.links{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    max-height: 600px;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0 1rem;
+    border-radius:40px;
+}
+
+.link-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social-platform{
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.github{
+    background-color: var(--github-color);
+    border-color: #000;
+}
+
+.linkedin{
+    background-color: var(--linkedin-color);
+    border-color: var(--linkedin-border);
+}
+
+.blog{
+    background-color: var(--blog-color);
+    border-color: var(--blog-border);
+}
+
+.youtube{
+    background-color: var(--youtube-color);
+    border-color: var(--youtube-border);
+}
+
+.gmail{
+    background-color: var(--gmail-color);
+    border-color: var(--gmail-border);
+}
+
+.icon{
+    width: 64px;
+}
+
+.github-icon{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.description{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 90%;
+    font-weight: 600;
+    margin: 0;
+    text-align:center;
+    background-color: rgba(102, 102, 102, 0.29);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
